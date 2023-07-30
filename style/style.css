@@ -129,13 +129,13 @@ a{
      color: #2d2e32;
      font-family: Mulish,sans-serif;
      font-weight: 600;
-     margin-right: 4rem;
+     margin-right: 2rem;
      padding-right: 2rem;
  }
  .skills ul {
      display: flex;
      flex-wrap: wrap;
-     gap: 2.2rem;
+     gap: 0.1rem;
      list-style: none;
  }
  .skills ul li {
@@ -147,9 +147,9 @@ a{
      display: flex;
      height: 6.3rem;
      justify-content: center;
-     width: 6.3rem;
+     width: 5.3rem;
  }
  .skills ul li img {
-     height: 2.8rem;
-     width: 2.4rem;
+     height: 2.0rem;
+     width: 2.0rem;
  }
