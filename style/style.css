@@ -13,7 +13,7 @@ nav{
      background-color: #fff;
      box-shadow: 0 0 10px rgba(0,0,0,0.09);
      display: flex;
-     font-size: 1.3rem;
+     font-size: 1.1rem;
      height: auto;
      justify-content: space-between;
      left: 0;
@@ -35,3 +35,121 @@ a{
      color: #2d2e32;
      font-weight: bolder;
 }
+.hero{
+     background-color: #f9f9f9;
+     display: flex;
+     flex-direction:  column;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+}
+.container{
+     margin: 0 auto;
+     max-width: 61rem;
+     padding: 0 2rem;
+}
+.content{
+     align-items: center;
+     display: flex;
+     gap: 1rem;
+     height: 45rem;
+     justify-content: center;
+     position: relative;
+}
+.hero-main {
+     align-items: center;
+     display: flex;
+     gap: 7rem;
+     justify-content: center;
+     position: relative;
+ }
+ .hero-text {
+     display: flex;
+     flex-direction: column;
+     max-width: 45rem;
+     position: relative;
+ }
+ .hero-text h1 {
+     color: #2d2e32;
+     font-size: 3.8rem;
+     line-height: 1.2;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+ }
+ .hero-text img {
+     height: 4rem;
+     position: absolute;
+     right: 4rem;
+     top: 6.7rem;
+     width: 6rem;
+ }
+ .hero-text p {
+     color: #555;
+     /* font-family: sans-serif; */
+     font-size: 1.1rem;
+     font-weight: 500;
+     line-height: 1.6;
+ }
+
+ .hero-text span {
+     cursor: pointer;
+     display: flex;
+     gap: 1.3rem;
+     margin: 2.5rem 0;
+ }
+ .hero-text span a {
+     color: #2d2e32;
+     font-size: 2rem;
+ }
+ .hero-img {
+     -webkit-animation: morph 8s ease-in-out infinite;
+     animation: morph 8s ease-in-out infinite;
+     background-image: url(https://avatars.githubusercontent.com/u/99408291?v=4);
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: 3px solid #2d2e32;
+     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+     height: 21rem;
+     position: relative;
+     transition: all 1s ease-in-out;
+     width: 28rem;
+ }
+ .skills {
+     align-items: center;
+     bottom: 0;
+     color: #767676;
+     display: flex;
+     font-size: 1.2rem;
+     left: 0;
+     position: absolute;
+ }
+ .skills p {
+     border-right: 2px solid rgba(45,46,50,.5);
+     color: #2d2e32;
+     font-family: Mulish,sans-serif;
+     font-weight: 600;
+     margin-right: 4rem;
+     padding-right: 2rem;
+ }
+ .skills ul {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2.2rem;
+     list-style: none;
+ }
+ .skills ul li {
+     align-items: center;
+     background-color: #fff;
+     border-radius: 50%;
+     box-shadow: 0 0 10px rgba(0,0,0,.09);
+     cursor: pointer;
+     display: flex;
+     height: 6.3rem;
+     justify-content: center;
+     width: 6.3rem;
+ }
+ .skills ul li img {
+     height: 2.8rem;
+     width: 2.4rem;
+ }
