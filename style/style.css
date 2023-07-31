@@ -175,13 +175,13 @@ a{
     bottom: 35px;
     position: absolute;
     right: 98px;
-    width: 3rem!important;
+    width: 4rem!important;
     z-index: 10;
 }
 .img-side__main-img {
     border-radius: 1.1rem;
-    height: 15rem;
-    width: 20rem;
+    height: 20rem;
+    width: 26rem;
 }
 .img-side span {
     background-color: #fff;
