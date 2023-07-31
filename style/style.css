@@ -153,3 +153,7 @@ a{
      height: 2.0rem;
      width: 2.0rem;
  }
+ .about {
+    background-color: #fff;
+    padding: 15rem 0;
+}
