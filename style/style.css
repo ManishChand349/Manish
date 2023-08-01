@@ -52,7 +52,7 @@ a{
      align-items: center;
      display: flex;
      gap: 1rem;
-     height: 45rem;
+     height: 42rem;
      justify-content: center;
      position: relative;
 }
@@ -155,7 +155,7 @@ a{
  }
  .about {
     background-color: #fff;
-    padding: 5rem 0;
+    padding: 12rem 0;
 }
 /* .container {
     margin: 0 auto;
@@ -172,10 +172,10 @@ a{
     position: relative;
 }
 .work-emoji {
-    bottom: 35px;
+    bottom: 31px;
     position: absolute;
-    right: 98px;
-    width: 4rem!important;
+    right: 81px;
+    width: 3.7rem!important;
     z-index: 10;
 }
 .img-side__main-img {
@@ -186,16 +186,17 @@ a{
 .img-side span {
     background-color: #fff;
     border-radius: 50%;
-    bottom: -33px;
+    bottom: -29px;
     height: 10rem;
     position: absolute;
-    right: 33px;
+    right: 29px;
     width: 10rem;
 }
 .img-side span img {
     -webkit-animation: rotate 9s linear infinite;
     animation: rotate 9s linear infinite;
-    width: 11rem;
+    width: 10rem;
+    
 }
 .text-side {
     padding-right: 1.1rem;
