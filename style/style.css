@@ -337,7 +337,7 @@ a{
 .contact--icon-box {
     align-items: center;
     display: flex;
-    gap: 2.9rem;
+    gap: 1.9rem;
 }
 .contact--icon-box span {
     background-color: #fff;
@@ -360,6 +360,9 @@ a{
     font-size: 1rem;
     text-decoration: none;
     font-weight: normal;
+}
+.mail{
+    margin-left: 20px;
 }
 footer{
     background-color: #232528;
