@@ -243,6 +243,10 @@ a {
   display: flex;
   flex-direction: column;
 }
+.flex{
+  display: flex;
+  column-gap: 20px;
+}
 .project-content, .project-heading-1 {
   color: #147efb;
   font-size: 1.3rem;
@@ -259,11 +263,11 @@ a {
   grid-gap: 5rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns:auto auto;
+  /* grid-template-columns:auto auto; */
   grid-template-rows: auto auto;
   row-gap: 6rem;
   height: 10%;
-  width: 100%;
+  width: 45%;
 }
 .projects-grid
 .pro__1 {
@@ -299,7 +303,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin-right: 10px;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .project-para{
   color: #767676;
@@ -328,6 +332,7 @@ a {
 .contact {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .contact-title p {
   color: #147efb;
@@ -345,6 +350,8 @@ a {
   flex-wrap: wrap;
   gap: 5rem;
   margin-top: 4rem;
+  width: 100%;
+
 }
 .contact--icon-box {
   align-items: center;
@@ -497,14 +504,37 @@ footer h3 {
 .contact {
   padding: 8rem 0;
 }
+.contact--icon-box {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
+.contact-title p, .contact-title h3 {
+  width: 100%;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  }
+  .project-content{
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .work-emoji {
+    bottom: 31px;
+    right: 82px;
+}
+}
+
+
 @media (max-width: 880px){
 
   .work-emoji {
     bottom: 57px;
     right: 156px;
   }
-  
 }
 @media (max-width: 900px){
 .hero {
@@ -609,12 +639,192 @@ nav{
 
   nav {
     padding: 25px 30px;
-  } 
+  }
   .text-side {
     padding-right: 0;
 }
 }
-@media (max-width: 375px){
+
+@media (max-width: 425px){
+  .container{
+    padding: 0;
+  }
 .hero-text img {
     right: 1.7rem;
-}}
+}
+nav{
+  padding: 12px 12px;
+  width: 72%;
+  position: fixed;
+}
+.hero-main{
+  width: 40%;
+}
+.hero-img{
+  width: 18rem;
+  height: 16rem;
+}
+.hero{
+  padding: 10rem 0;
+}
+.contect{
+  width: 100%;
+}
+.hero-text h1{
+  margin: 0;
+}
+.hero-text img{
+  height: 3rem;
+  width: 3rem;
+  top: 6rem;
+  right: 1rem;
+}
+
+.skills ul li{
+  height: 4.3rem;
+  width: 3.4rem;
+}
+.project{
+  padding: 4rem 0;
+}
+.projects-grid .pro__img img{
+  width: 99%;
+}
+.projects-grid .pro__1 {
+  height: 32rem;
+  padding: 1rem;
+  width: 19rem;
+}
+.projects-grid{
+  display: grid;
+  /* grid-template-rows: auto auto; */
+}
+nav {
+  padding: 12px 12px;
+  width: 102%;
+  position: fixed;
+}
+.flex{
+display: flex;
+flex-direction: column;
+}
+.projects-grid .pro__text {
+
+margin-bottom: 3rem;
+}
+.contact {
+  padding: 2rem 0;
+}
+.project {
+  padding: 0 0;
+}
+.hero {
+  padding: 1rem 0;
+}
+}
+@media (max-width: 375px){
+  nav {
+    width: 100%;
+}
+.hero {
+  padding: 6rem 0;
+}
+.hero-text p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.hero-text span {
+  margin-top: 1rem;
+}
+.text-side {
+  margin: 0 auto;
+  max-width: 20rem;
+}
+.about {
+  padding: 3rem 0;
+}
+.projects-grid .pro__1 {
+  
+  width: 21rem;
+}
+.project {
+  padding: 1rem 0;
+}
+.contact {
+  padding: 2rem 0;
+}
+.contact-title p, .contact-title h3 {
+  width: 100%;
+  text-align: center;
+}
+.contact--info h3 {
+  color: #2d2e32;
+  font-size: 1.2rem;
+ text-align: center;
+}
+.contact--info a{
+ width: 100%;
+}
+.contact--icon-box {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+}
+@media (max-width: 320px){
+nav {
+    padding: 12px 12px;
+    width: 95%;
+    position: fixed;
+}
+.content{
+  width: 119%;
+ 
+}
+.about {
+  width: 124%;
+  padding: 3rem 0;
+}
+.project-content h3 {
+ width: 124%;
+}
+.project-heading{
+  width: 120%;
+}
+.projects-grid .pro__text {
+
+  margin-bottom: 3rem;
+}
+.contact-title p ,.contact-title h3{
+  width: 100%;
+  text-align: center;
+}
+.contact--icon-box{
+  align-items: center;
+  width: 100%;
+}
+footer h3{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+.projects-grid .pro__1 {
+  height: 32rem;
+  padding: 1rem;
+  width: 22rem;
+}
+.text-side {
+  margin: 0 auto;
+  max-width: 19rem;
+}
+.contact {
+  padding: 0 0;
+}
+.project-content {
+  padding-left: 0;
+  width: 100%;
+}
+}
