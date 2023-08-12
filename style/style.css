@@ -237,7 +237,7 @@ a {
 }
 .project {
   background-color: #f9f9f9;
-  padding: 9rem 0;
+  padding: 2rem 0;
 }
 .project-content {
   display: flex;
@@ -258,27 +258,28 @@ a {
 .projects-grid {
   grid-gap: 5rem;
   display: grid;
-  gap: 3rem;
-  grid-template-columns: 1fr;
+  gap: 1rem;
+  grid-template-columns:auto auto;
   grid-template-rows: auto auto;
-  height: auto;
+  row-gap: 6rem;
+  height: 10%;
   width: 100%;
 }
-.projects-grid,
+.projects-grid
 .pro__1 {
   flex-direction: row;
   gap: 6rem;
   height: 32rem;
   padding: 1rem;
 }
-.projects-grid,
+.projects-grid
 .pro {
   background-color: #fff;
   border-radius: 1.3rem;
   box-shadow: 0 0 1px rgba(0, 0, 0, 1);
   display: flex;
 }
-.projects-grid,
+.projects-grid
 .pro__img {
   background-color: hsla(0, 0%, 46%, 0.2);
   border-radius: 1.4rem;
@@ -287,16 +288,18 @@ a {
   overflow: hidden;
   width: 28rem;
 }
-.projects-grid,
+.projects-grid
 .pro__img img {
   height: auto;
   width: 100%;
 }
+.projects-grid
 .pro__text{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 10px;
+  margin-top: 6rem;
 }
 .ECommerce-para{
   color: #767676;
@@ -307,6 +310,20 @@ a {
 }
 .project-heading-1{
   text-align: center;
+}
+.tools{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+
+}
+.project-code{
+  margin-top: 2rem;
+}
+.project-code > a{
+  margin-left: 1rem;
+  font-weight: 300;
+  margin-top: 2rem;
 }
 .contact {
   display: flex;
@@ -349,7 +366,7 @@ a {
 }
 .contact-contact {
   background: #fff;
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 .contact--info {
   display: flex;
