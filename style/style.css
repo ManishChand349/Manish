@@ -361,7 +361,7 @@ a {
 }
 .contact--icon-box span {
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 49%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 1.3rem;
 }
