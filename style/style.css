@@ -448,13 +448,17 @@ footer h3 {
 @media (max-width: 320px){
 nav {
     padding: 12px 12px;
-    width: 95%;
+    width: 100%;
     position: fixed;
     display: inline;
 
 }
  h3{
   margin-left: 120px;
+}
+.hero-main{
+  display: grid;
+  grid-template-columns: 100%;
 }
 .hero-img {
   width: 14rem;
@@ -485,5 +489,17 @@ nav {
 }
 .skills ul {
  gap: 1rem;
+}
+.about-content{
+  display: grid;
+  grid-template-columns: 100%;
+}
+.flex {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.contact--icon-box{
+  display: grid;
+  grid-template-columns: 100%;
 }
 }
